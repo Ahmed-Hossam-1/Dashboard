@@ -1,0 +1,61 @@
+.form-contianer {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-contianer .register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.form-contianer .register form {
+  width: 400px;
+  box-shadow: 0 2px 15px rgb(0 0 0/10%);
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.form-contianer form input {
+  padding: 10px 20px;
+  width: 100%;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 0 0 1px 1px rgb(0 0 0/0.1);
+  transition: 0.3s;
+  margin-bottom: 8px;
+}
+.form-contianer form input:focus {
+  border: 2px solid #86b7fe;
+}
+.form-contianer form input::placeholder {
+  color: rgb(0 0 0/0.3);
+}
+.form-contianer .register form button {
+  outline: none;
+  border: none;
+  background-color: #86b7fe;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 2px solid white;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.form-contianer .register form button:hover {
+  background-color: white;
+  border: 2px solid #86b7fe;
+  color: #86b7fe;
+}
+.error {
+  text-align: center;
+  color: red;
+  margin-top: 0;
+  font-size: 14px;
+}

@@ -1,0 +1,27 @@
+.main-site {
+  display: flex;
+  height: calc(100vh - 75.04px);
+  width: 75%;
+}
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+  width: 25%;
+  height: 100%;
+  border-right: 1px solid #cbc9c9;
+}
+.item-link {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: 0.3s;
+}
+.item-link:hover {
+  color: #86b7fe;
+}
+.dash-main {
+  padding: 20px;
+}
